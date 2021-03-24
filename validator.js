@@ -14,6 +14,7 @@ class Validator {
    * @returns {boolean}
    */
   isValid(schema = {}, dataToValidate) {
-    return false;
+    console.log(Errors())
+    return true;
   }
 }
