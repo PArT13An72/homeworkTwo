@@ -42,7 +42,7 @@ class Validator {
             break;
           } else {
             return false;
-          }
+          } 
 
         case 'minimum':
           if(schema.minimum < dataToValidate) {
