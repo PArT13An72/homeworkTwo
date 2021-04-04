@@ -17,4 +17,4 @@ class Validator {
     console.log(Errors())
     return true;
   }
-}
+} 
